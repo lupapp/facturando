@@ -5,7 +5,7 @@ let win = null;
 
 function createWindow() {
   // Initialize the window to our specified dimensions
-  win = new BrowserWindow({width: 1000, height: 600});
+  win = new BrowserWindow({width: 1366, height: 750});
 
   const startUrl=process.env.ELECTRON_START_URL || url.format({
             pathname: path.join(__dirname, build/index.html),
